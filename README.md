@@ -24,3 +24,10 @@ This project performs sentiment analysis and aspect extraction on customer revie
 - A valid OpenAI API key stored in `config.py`:
   ```python
   API_KEY = "sk-..."
+
+# Usage
+
+- 1) Change API_KEY placeholder in config.py to your one
+- 2) Run `sentiment_aspect_analysis.py`.
+- 3) Run `visualize_summary.py`. You will know have a bar graph to analyze.
+- 4) Run `generate_recommendations.py` to give you suggestions.
